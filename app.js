@@ -97,3 +97,50 @@ FourthOfJuly.comments = ['ok..'];
 FourthOfJuly.caption = "writing code on the 4th";
 
 console.log(FourthOfJuly);
+
+
+//Functions
+function sayHello(){
+    console.log("Hello");
+}
+sayHello();
+
+//function expression
+const sayHelloAgain = function() {
+    console.log("Hello Again");
+}
+sayHelloAgain();
+
+//arrow function
+const sayHelloFinal = () => {
+    console.log("Hello for the last time");
+}
+sayHelloFinal();
+
+
+//place holders
+//pass value into funtion
+const numbers = [1,2,3,4,5];
+const otherNumbers = [40,50,60,70];
+
+function printNumbers(num){
+    console.log(num);
+}
+
+printNumbers(numbers);
+printNumbers(otherNumbers);
+
+function printArr(array){
+    for(let i = 0; i<array.length; i++){
+        let item = array[i];
+
+        if(item < 60){
+            console.log("This number is less than 60: " + item);
+        }
+        else{
+            console.log("This number is greater than 60: " + item);
+        }
+    }
+}
+printArr(numbers);
+printArr(otherNumbers);
