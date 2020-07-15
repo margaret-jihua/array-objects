@@ -35,3 +35,10 @@ for (var i=0; i<fruits.length; i++){
     var eachItem = fruits[i];
     console.log(eachItem);
 }
+
+//make array
+var weather = ["sunny", "rainy", "wendy"]
+for (var i = 0; i<weather.length; i++){
+    var eachItem = weather[i];
+    console.log(eachItem);
+}
