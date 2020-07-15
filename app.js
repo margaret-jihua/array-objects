@@ -82,3 +82,18 @@ console.log(myCoolPost);
 myCoolPost.mylocation = 'San Franciso';
 console.log(myCoolPost);
 
+
+let sentence = "I'm cool";
+let sentence2 = 'I\'m cool too';
+
+
+const FourthOfJuly = {
+    username: "$ga"
+};
+
+FourthOfJuly.picture = 'https://instagram.com/....';
+FourthOfJuly['likes'] = 15;
+FourthOfJuly.comments = ['ok..'];
+FourthOfJuly.caption = "writing code on the 4th";
+
+console.log(FourthOfJuly);
