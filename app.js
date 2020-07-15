@@ -144,3 +144,15 @@ function printArr(array){
 }
 printArr(numbers);
 printArr(otherNumbers);
+
+function addNumbers(array){
+    let result = 0;
+    for (let i = 0; i < array.length; i++){
+        // result += array[i];
+        let num = array[i];
+        result += num;
+    }
+    return result;
+}
+
+console.log(addNumbers(numbers));
