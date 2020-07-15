@@ -36,9 +36,17 @@ for (var i=0; i<fruits.length; i++){
     console.log(eachItem);
 }
 
-//make array
+//make array exercise
 var weather = ["sunny", "rainy", "wendy"]
 for (var i = 0; i<weather.length; i++){
     var eachItem = weather[i];
     console.log(eachItem);
+}
+
+const cars = ['Tesla', 'Honda', 'Toyota', 'Ford'];
+console.log(cars);
+
+for (let i=0; i<cars.length; i++){
+    let eachCar = cars[i];
+    console.log(eachCar);
 }
