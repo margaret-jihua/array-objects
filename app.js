@@ -50,3 +50,35 @@ for (let i=0; i<cars.length; i++){
     let eachCar = cars[i];
     console.log(eachCar);
 }
+
+//Objects
+//key: value pairs
+
+const margaret = {
+    fullname: "Jihua Huang",
+    age: 26,
+    myLocation: 'San Francisco',
+    placesTraveled: ["New York", "Miami", "Boston", "Hawaii"]
+};
+
+console.log(margaret);
+console.log(margaret.myLocation);
+console.log(margaret.placesTraveled[0]);
+
+//instagram post object
+
+const myCoolPost = {
+    username: "@generalassembly",
+    likes: 12000,
+    comments: ['really cool post', 'nice', 'woah', 'javascript is cool'],
+    caption: 'Day 3 of SEI',
+    picture: 'https://instagram.com/generalassembly/.....',
+    shares: 34
+}
+
+console.log(myCoolPost);
+
+//add key and value
+myCoolPost.mylocation = 'San Franciso';
+console.log(myCoolPost);
+
