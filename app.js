@@ -24,3 +24,14 @@ while (smallNum < bigNum){
     console.log(smallNum);
     smallNum += 1;
 }
+
+//for loop
+for (var i = 0; i < 8; i++){
+    console.log(i);
+}
+
+for (var i=0; i<fruits.length; i++){
+    // console.log(fruits[i]);
+    var eachItem = fruits[i];
+    console.log(eachItem);
+}
